@@ -1,0 +1,733 @@
+# Translation of Plugins - SiteGround Security - Development (trunk) in Spanish (Colombia)
+# This file is distributed under the same license as the Plugins - SiteGround Security - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-09 18:52:25+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es_CO\n"
+"Project-Id-Version: Plugins - SiteGround Security - Development (trunk)\n"
+
+#: core/Rest/Rest_Helper_Dashboard.php:27
+msgid "Update"
+msgstr "Actualizar"
+
+#: core/Rest/Rest_Helper_Dashboard.php:26
+msgid "There are new updates for your website. Keeping your WordPress updated is crucial for your website security"
+msgstr "Hay nuevas actualizaciones para tu web. Mantener tu WordPress actualizado es crucial para la seguridad de tu web."
+
+#: core/Rest/Rest_Helper_Dashboard.php:25
+msgid "YOUR WORDPRESS NEEDS ATTENTION"
+msgstr "TU WORDPRESS NECESITA ATENCIÓN"
+
+#: misc/react-strings.php:142
+msgid "Bear in mind that the user will NOT be notified of the change."
+msgstr "Ten en cuenta que el usuario NO será avisado de este cambio."
+
+#: misc/react-strings.php:107
+msgid "View all logs"
+msgstr "Ver todos los registros"
+
+#: misc/react-strings.php:100 misc/react-strings.php:105
+msgid "Are you sure you wish to proceed?"
+msgstr "¿Seguro que deseas continuar?"
+
+#: misc/react-strings.php:53
+msgid "Two-factor Authentication for Admin & Editors Users"
+msgstr "Identificación de dos factores para los usuarios administradores y editores"
+
+#: misc/react-strings.php:40
+msgid "Manage IP Traffic"
+msgstr "Gestionar el tráfico IP"
+
+#: misc/react-strings.php:32 misc/react-strings.php:41
+msgid "View Activity"
+msgstr "Ver la actividad"
+
+#: misc/react-strings.php:31
+msgid "Manage User Traffic"
+msgstr "Gestionar el tráfico de usuarios"
+
+#: misc/react-strings.php:7 misc/react-strings.php:12
+msgid "This field is required."
+msgstr "Este campo es necesario."
+
+#: core/Block_Service/Block_Service.php:151
+msgid "IP Unblocked."
+msgstr "IP desbloqueada."
+
+#: core/Block_Service/Block_Service.php:144
+msgid "Could not unblock the IP."
+msgstr "No se pudo desbloquear la IP."
+
+#: core/Rest/Rest_Helper_Activity.php:403
+msgid "Unknown user"
+msgstr "Usuario desconocido"
+
+#: core/Rest/Rest_Helper_Activity.php:387
+msgid "WP CLI"
+msgstr "WP CLI"
+
+#: core/Rest/Rest_Helper_Dashboard.php:88
+msgid "Get Secure WordPress Hosting"
+msgstr "Consigue un alojamiento WordPress seguro"
+
+#: core/Rest/Rest_Helper_Dashboard.php:81
+msgid "Free ebook"
+msgstr "Ebook gratuito"
+
+#: core/Block_Service/Block_Service.php:151
+msgid "IP Blocked."
+msgstr "IP bloqueada."
+
+#: core/Block_Service/Block_Service.php:144
+msgid "Could not block the IP."
+msgstr "No se pudo bloquear la IP."
+
+#: core/Block_Service/Block_Service.php:124
+msgid "You cannot block the IP you are currently using!"
+msgstr "¡No puedes bloquear la IP que estás usando actualmente!"
+
+#: core/Block_Service/Block_Service.php:92
+msgid "User Blocked!."
+msgstr "¡Usuario bloqueado!"
+
+#: core/Block_Service/Block_Service.php:71
+msgid "User not found."
+msgstr "Usuario no encontrado."
+
+#: core/Rest/Rest_Helper_Activity.php:514
+#: core/Rest/Rest_Helper_Activity.php:538
+#: core/Rest/Rest_Helper_Activity.php:563 core/Rest/Rest_Helper_Login.php:130
+msgid "Missing ID param!"
+msgstr "¡Parámetro de ID no disponible!"
+
+#: core/Activity_Log/Activity_Log_Posts.php:68
+msgid "Updated"
+msgstr "Actualizado"
+
+#: core/Activity_Log/Activity_Log_Posts.php:59
+msgid "Restored"
+msgstr "Restaurado"
+
+#: core/Activity_Log/Activity_Log_Posts.php:50
+msgid "Trashed"
+msgstr "Enviado a la papelera"
+
+#: core/Activity_Log/Activity_Log_Comments.php:152
+msgid " comment"
+msgstr " comentario"
+
+#: core/Activity_Log/Activity_Log_Comments.php:128
+msgid "Deleted comment"
+msgstr "Comentario borrado"
+
+#: core/Activity_Log/Activity_Log_Comments.php:110
+msgid "Unspamed comment"
+msgstr "Comentario quitado de spam"
+
+#: core/Activity_Log/Activity_Log_Comments.php:92
+msgid "Spammed comment"
+msgstr "Comentario enviado a spam"
+
+#: core/Activity_Log/Activity_Log_Comments.php:74
+msgid "Untrashed comment"
+msgstr "Comentario restaurado de la papelera"
+
+#: core/Activity_Log/Activity_Log_Comments.php:56
+msgid "Trashed comment"
+msgstr "Comentario enviado a la papelera"
+
+#: core/Activity_Log/Activity_Log_Comments.php:38
+msgid "Edited comment"
+msgstr "Comentario editado"
+
+#: core/Activity_Log/Activity_Log_Comments.php:19
+msgid "New comment"
+msgstr "Nuevo comentario"
+
+#: core/Activity_Log/Activity_Log_Export.php:16
+#: core/Activity_Log/Activity_Log_Export.php:17
+msgid "Exported WordPress"
+msgstr "WordPress exportado"
+
+#: core/Activity_Log/Activity_Log_Themes.php:159
+msgid "Deleted Theme"
+msgstr "Tema borrado"
+
+#: core/Activity_Log/Activity_Log_Themes.php:135
+msgid "Edited Customizer Theme"
+msgstr "Tema editado en el personalizador"
+
+#: core/Activity_Log/Activity_Log_Themes.php:116
+msgid "Switched Theme"
+msgstr "Tema cambiado"
+
+#: core/Activity_Log/Activity_Log_Themes.php:96
+msgid "Updated Theme"
+msgstr "Tema actualizado"
+
+#: core/Activity_Log/Activity_Log_Themes.php:63
+msgid "Installed Theme"
+msgstr "Tema instalado"
+
+#: core/Activity_Log/Activity_Log_Themes.php:30
+msgid "Edited Theme"
+msgstr "Tema editado"
+
+#: core/Activity_Log/Activity_Log_Core.php:16
+#: core/Activity_Log/Activity_Log_Core.php:17
+msgid "Updated Core"
+msgstr "Núcleo actualizado"
+
+#: core/Activity_Log/Activity_Log_Plugins.php:123
+msgid "Updated Plugin"
+msgstr "Plugin actualizado"
+
+#: core/Activity_Log/Activity_Log_Plugins.php:91
+msgid "Installed Plugin"
+msgstr "Plugin instalado"
+
+#: core/Activity_Log/Activity_Log_Plugins.php:59
+msgid "Edited Plugin"
+msgstr "Plugin editado"
+
+#: core/Activity_Log/Activity_Log_Plugins.php:35
+msgid "Deactivated Plugin"
+msgstr "Plugin desactivado"
+
+#: core/Activity_Log/Activity_Log_Plugins.php:17
+msgid "Activated Plugin"
+msgstr "Plugin activado"
+
+#: core/Activity_Log/Activity_Log_Options.php:126
+#: core/Activity_Log/Activity_Log_Options.php:127
+msgid "Updated Option"
+msgstr "Opción actualizada"
+
+#: core/Activity_Log/Activity_Log_Attachments.php:53
+msgid "Deleted attachment"
+msgstr "Adjunto borrado"
+
+#: core/Activity_Log/Activity_Log_Attachments.php:35
+msgid "Edited attachment"
+msgstr "Adjunto editado"
+
+#: core/Activity_Log/Activity_Log_Attachments.php:17
+msgid "Added attachment"
+msgstr "Adjunto añadido"
+
+#: core/Activity_Log/Activity_Log_Posts.php:97
+#: core/Activity_Log/Activity_Log_Taxonomies.php:62
+msgid "Deleted"
+msgstr "Borrado"
+
+#: core/Activity_Log/Activity_Log_Taxonomies.php:40
+msgid "Edited"
+msgstr "Editado"
+
+#: core/Activity_Log/Activity_Log_Posts.php:35
+#: core/Activity_Log/Activity_Log_Taxonomies.php:19
+msgid "Created"
+msgstr "Creado"
+
+#: core/Activity_Log/Activity_Log_Users.php:123
+#: core/Activity_Log/Activity_Log_Users.php:124
+msgid "Failed Login Attempt"
+msgstr "Intento de acceso fallido"
+
+#: core/Activity_Log/Activity_Log_Users.php:101
+msgid "User Update"
+msgstr "Actualización de usuario"
+
+#: core/Activity_Log/Activity_Log_Users.php:80
+msgid "User Register"
+msgstr "Registro de usuario"
+
+#: core/Activity_Log/Activity_Log_Users.php:59
+msgid "User Delete"
+msgstr "Borrado de usuario"
+
+#: core/Activity_Log/Activity_Log_Users.php:38
+msgid "User logout"
+msgstr "Desconexión de usuario"
+
+#: core/Activity_Log/Activity_Log_Users.php:17
+msgid "User Login"
+msgstr "Acceso de usuario"
+
+#: core/Activity_Log/Activity_Log_Widgets.php:55
+msgid "Deleted Widget"
+msgstr "Widget borrado"
+
+#: core/Activity_Log/Activity_Log_Widgets.php:21
+msgid "Updated Widget"
+msgstr "Widget actualizado"
+
+#: core/Admin/Admin.php:232
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: core/Password_Service/Password_Service.php:171
+msgid "The administrator of this site has requested that you change your password. Enter your new password below or generate one."
+msgstr "El administrador de este sitio ha solicitado que cambies tu contraseña. Introduce abajo tu nueva contraseña o genera una."
+
+#: core/Message_Service/Message_Service.php:110
+msgid "Failed to enable Two-factor Authentication for Admin Users"
+msgstr "Fallo al activar la identificación de dos factores para usuarios administradores"
+
+#: core/Message_Service/Message_Service.php:106
+msgid "Failed to disable Two-factor Authentication for Admin Users"
+msgstr "Fallo al desactivar la identificación de dos factores para usuarios administradores"
+
+#: core/Message_Service/Message_Service.php:100
+msgid "Failed to enable Advanced XSS Protection"
+msgstr "Fallo al activar la protección XSS avanzada"
+
+#: core/Message_Service/Message_Service.php:96
+msgid "Failed to disable Advanced XSS Protection"
+msgstr "Fallo al desactivar la protección XSS avanzada"
+
+#: core/Message_Service/Message_Service.php:90
+msgid "Failed to Disable RSS/ATOM feeds"
+msgstr "Fallo al desactivar los feeds RSS/ATOM"
+
+#: core/Message_Service/Message_Service.php:86
+msgid "Failed to enable RSS/ATOM feeds."
+msgstr "Fallo al activar los feeds RSS/ATOM."
+
+#: core/Message_Service/Message_Service.php:80
+msgid "Failed to enable XML-RPC."
+msgstr "Fallo al activar XML-RPC."
+
+#: core/Message_Service/Message_Service.php:76
+msgid "Failed to disable XML-RPC."
+msgstr "Fallo al desactivar XML-RPC."
+
+#: core/Message_Service/Message_Service.php:70
+msgid "Failed to hide WordPress version."
+msgstr "Fallo al ocultar la versión de WordPress."
+
+#: core/Message_Service/Message_Service.php:60
+msgid "Failed to Disable Themes & Plugins Editor."
+msgstr "Fallo al desactivar el editor de temas y plugins."
+
+#: core/Message_Service/Message_Service.php:56
+msgid "Failed to enable Themes & Plugins Editor."
+msgstr "Fallo al activar el editor de temas y plugins."
+
+#: core/Message_Service/Message_Service.php:50
+msgid "Failed to enable System Folders protection."
+msgstr "Fallo al activar la protección de las carpetas del sistema."
+
+#: core/Message_Service/Message_Service.php:46
+msgid "Failed to disable System Folders protection."
+msgstr "Fallo al desactivar la protección de las carpetas del sistema."
+
+#: core/Message_Service/Message_Service.php:39
+msgid "Failed to delete Readme.html."
+msgstr "Fallo al borrar el readme.html."
+
+#: core/Message_Service/Message_Service.php:36
+msgid "All users are logged out."
+msgstr "Todos los usuarios están desconectados."
+
+#: core/Message_Service/Message_Service.php:35
+msgid "Failed to log out all users."
+msgstr "Fallo al desconectar a todos los usuarios."
+
+#: core/Message_Service/Message_Service.php:32
+msgid "Plugins reinstalled."
+msgstr "Plugins reinstalados."
+
+#: core/Message_Service/Message_Service.php:31
+msgid "Failed to reinstall plugins."
+msgstr "Fallo al reinstalar los plugins."
+
+#: core/Message_Service/Message_Service.php:28
+msgid "All users will be asked to reset their passwords on next login."
+msgstr "Se pedirá a todos los usuarios que restablezcan sus contraseñas en el siguiente acceso."
+
+#: core/Message_Service/Message_Service.php:27
+msgid "Failed to force password reset."
+msgstr "Fallo al forzar el restablecimiento de contraseñas."
+
+#: core/Rest/Rest_Helper_Dashboard.php:65
+msgid "Login Security"
+msgstr "Seguridad en el acceso"
+
+#: core/Rest/Rest_Helper_Dashboard.php:63
+msgid "Manage Login"
+msgstr "Gestionar acceso"
+
+#: core/Rest/Rest_Helper_Dashboard.php:62
+msgid "Protect your login from unauthorised visitors, bots and other human or automated attacks."
+msgstr "Protege tu acceso de visitantes no autorizados, bots y otros ataques humanos o automáticos."
+
+#: core/Rest/Rest_Helper_Dashboard.php:55
+msgid "Manage Security"
+msgstr "Gestionar seguridad"
+
+#: core/Rest/Rest_Helper_Dashboard.php:54
+msgid "Set up rules to harden your website security and prevent malware, bruteforce and other security issues."
+msgstr "Configura reglas que refuerza la seguridad de tu web y evitan el malware, ataques de fuerza bruta y otros problemas de seguridad."
+
+#: core/Sg_2fa/Sg_2fa.php:563
+msgid "You have logged in successfully."
+msgstr "Has accedido correctamente."
+
+#: core/Sg_2fa/Sg_2fa.php:688 core/Sg_2fa/Sg_2fa.php:695
+msgid "Invalid verification code!"
+msgstr "¡Código de verificación no válido!"
+
+#: misc/react-strings.php:144
+msgid "Manage Login Access"
+msgstr "Gestionar accesos"
+
+#: misc/react-strings.php:143
+msgid "IP"
+msgstr "IP"
+
+#: misc/react-strings.php:134
+msgid "Configure Login URL"
+msgstr "Configurar URL de acceso"
+
+#: misc/react-strings.php:131
+msgid "You can enable Away Mode for maximum of 23 hours daily."
+msgstr "Puedes activar el modo de reposo por un máximo de 23 horas al día."
+
+#: misc/react-strings.php:128 misc/react-strings.php:130
+msgid "To"
+msgstr "Hasta"
+
+#: misc/react-strings.php:127 misc/react-strings.php:129
+msgid "From"
+msgstr "Desde"
+
+#: misc/react-strings.php:126
+msgid "Mode"
+msgstr "Modo"
+
+#: misc/react-strings.php:124
+msgid "Use Away Mode with caution."
+msgstr "Usa el modo de reposo con precaución."
+
+#: misc/react-strings.php:123
+msgid "Configure Away Mode"
+msgstr "Configurar el modo de reposo"
+
+#: misc/react-strings.php:122
+msgid "Sunday"
+msgstr "Domingo"
+
+#: misc/react-strings.php:121
+msgid "Saturday"
+msgstr "Sábado"
+
+#: misc/react-strings.php:120
+msgid "Friday"
+msgstr "Viernes"
+
+#: misc/react-strings.php:119
+msgid "Thursday"
+msgstr "Jueves"
+
+#: misc/react-strings.php:118
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: misc/react-strings.php:117
+msgid "Tuesday"
+msgstr "Martes"
+
+#: misc/react-strings.php:116
+msgid "Monday"
+msgstr "Lunes"
+
+#: misc/react-strings.php:115
+msgid "Daily"
+msgstr "Cada día"
+
+#: misc/react-strings.php:114
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#: misc/react-strings.php:113
+msgid "Specific Period"
+msgstr "Periodo específico"
+
+#: misc/react-strings.php:109
+msgid "Important Notifications"
+msgstr "Avisos importantes"
+
+#: misc/react-strings.php:108
+msgid "Security Hardening"
+msgstr "Reforzar seguridad"
+
+#: misc/react-strings.php:106
+msgid "Recent Activity"
+msgstr "Actividad reciente"
+
+#: misc/react-strings.php:95
+msgid "delete"
+msgstr "borrar"
+
+#: misc/react-strings.php:94
+msgid "WordPress comes with a Readme.html file containing information about your website. The Readme.txt is often used by hackers to compile lists of potentially vulnerable sites which can be hacked or attacked."
+msgstr "WordPress viene con un archivo «Readme.txt» que contiene información sobre tu web. El archivo «Readme.txt» suele ser usado por los hackers para recopilar listas de sitios potencialmente vulnerables que pueden ser hackeados o atacados."
+
+#: misc/react-strings.php:93
+msgid "Delete the Default Readme.html"
+msgstr "Borrar el «Readme.html» por defecto"
+
+#: misc/react-strings.php:92
+msgid "Enabling this option will add extra headers to your site for protection against XSS attacks."
+msgstr "Activando esta opción se añadirán cabeceras adicionales a tu sitio para protegerlo contra ataques XSS."
+
+#: misc/react-strings.php:91
+msgid "Advanced XSS Protection"
+msgstr "Protección XSS avanzada"
+
+#: misc/react-strings.php:89
+msgid "RSS and ATOM feeds are often used to scrape your content and to perform a number of attacks against your site. Only use feeds if you have readers using your site via RSS readers."
+msgstr "Los feeds RSS y ATOM a menudo se usan para robar tu contenido y realizar diversos tipos de ataques contra tu sitio. Utiliza feeds solo si tienes lectores que usan tu sitio mediante lectores RSS."
+
+#: misc/react-strings.php:88
+msgid "Disable RSS and ATOM Feeds"
+msgstr "Desactivar feeds RSS y ATOM"
+
+#: misc/react-strings.php:83
+msgid "XML-RPC was designed as a protocol enabling WordPress to communicate with third-party systems but recently it has been used in a number of exploits. Unless you specifically need to use it, we recommend that XML-RPC is always disabled."
+msgstr "XML-RPC se diseño como un protocolo con el que permitir a WordPress comunicarse con sistemas de terceros, pero recientemente se ha estado utilizando en montones de exploits. A menos que necesites usarlo específicamente, recomendamos tener siempre desactivado XML-RPC."
+
+#: misc/react-strings.php:82
+msgid "Disable XML-RPC"
+msgstr "Desactivar XML-RPC"
+
+#: misc/react-strings.php:80
+msgid "Disable the option to edit themes and plugins code directly from the WordPress admin to prevent potential coding errors or unauthorised access via the WordPress editor."
+msgstr "Desactiva la opción de editar código de temas y plugins directamente desde la administración de WordPress para evitar errores de código potenciales o accesos no autorizados desde el editor de WordPress."
+
+#: misc/react-strings.php:79
+msgid "Disable Themes & Plugins Editor"
+msgstr "Desactivar el editor de temas y plugins"
+
+#: misc/react-strings.php:77
+msgid "Many attackers scan sites for vulnerable WordPress versions. By hiding the version from your site HTML, you avoid being marked by hackers for mass attacks."
+msgstr "Muchos atacantes exploran sitios para buscar versiones vulnerables de WordPress. Al oculta la versión del HTML de tu sitio evitas ser marcado por los hackers para ataques en masa."
+
+#: misc/react-strings.php:76
+msgid "Hide WordPress Version"
+msgstr "Ocultar la versión de WordPress"
+
+#: misc/react-strings.php:74
+msgid "By enabling this option you are ensuring that no unauthorised or malicious scripts can be executed in your system folders. This is an often exploited back door you can close with a simple toggle."
+msgstr "Al activar esta opción estás asegurando que no se puede ejecutar ningún script no autorizado o malintencionado en tus carpetas del sistema. Esta es una puerta trasera explotada a menudo que puedes cerrar con un simple conmutador."
+
+#: misc/react-strings.php:73
+msgid "Lock and Protect System Folders"
+msgstr "Bloquear y proteger las carpetas del sistema"
+
+#: core/Rest/Rest_Helper_Dashboard.php:57 misc/react-strings.php:71
+msgid "Site Security"
+msgstr "Seguridad del sitio"
+
+#: misc/react-strings.php:69
+msgid "This will log out all currently logged in users without asking them to change their passwords."
+msgstr "Esto desconectará a todos los usuarios actualmente conectados sin pedirles que cambien sus contraseñas."
+
+#: misc/react-strings.php:68 misc/react-strings.php:70
+msgid "Log out All Users"
+msgstr "Desconectar a todos los usuarios"
+
+#: misc/react-strings.php:67
+msgid "force password reset"
+msgstr "forzar restablecimiento de contraseña"
+
+#: misc/react-strings.php:65
+msgid "Force Password Reset"
+msgstr "Forzar restablecimiento de contraseña"
+
+#: misc/react-strings.php:64
+msgid "reinstall all"
+msgstr "reinstalar todo"
+
+#: misc/react-strings.php:63
+msgid "Doing this will reinstall the same version of all free plugins you have installed in order to make sure that their codebase is not compromised by an attacker."
+msgstr "Al hacer esto se reinstalará la misma versión de todos los plugins gratuitos que hayas instalado para asegurar que su código base no ha sido comprometido por ningún atacante."
+
+#: misc/react-strings.php:62
+msgid "Reinstall All Free Plugins"
+msgstr "Reinstalar todos los plugins gratuitos"
+
+#: misc/react-strings.php:61
+msgid "Post-hack Actions"
+msgstr "Acciones después de un hackeo"
+
+#: misc/react-strings.php:60
+msgid "Limit the number of times a given user can attempt to log in to your wp-admin with incorrect credentials. Once the login attempt limit is reached, the IP from which the attempts have originated will be blocked first for 1 hour. If the attempts continue after the first hour, the limit will then be triggered for 24 hours and then for 7 days."
+msgstr "Limita la cantidad de veces que un usuario dado puede tratar de acceder a tu wp-admin con credenciales incorrectas. Una vez alcanzado el límite de intentos, la IP desde la que se hayan originado los intentos quedará bloqueada en primer lugar durante 1 hora. Si continúan los intentos después de la primera hora, el límite se ampliará a 24 horas y luego a 7 días."
+
+#: misc/react-strings.php:59
+msgid "Limit Login Attempts"
+msgstr "Limitar intentos de acceso"
+
+#: misc/react-strings.php:50
+msgid "Currently your WordPress login can be accessed by any IP. You can limit the access to specific IPs or range of IPs in order to prevent brute-force attacks or malicious login attempts."
+msgstr "Actualmente se puede acceder desde cualquier IP a tu acceso de WordPress. Puedes limitar el acceso a IP o rangos de IP específicas para evitar ataques de fuerza bruta o intentos de acceso malintencionados."
+
+#: misc/react-strings.php:49
+msgid "Login Access"
+msgstr "Acceso al inicio de sesión"
+
+#: misc/react-strings.php:48 misc/react-strings.php:51
+msgid "configure"
+msgstr "configurar"
+
+#: misc/react-strings.php:45 misc/react-strings.php:52
+#: misc/react-strings.php:55 misc/react-strings.php:58
+#: misc/react-strings.php:72 misc/react-strings.php:75
+#: misc/react-strings.php:78 misc/react-strings.php:81
+#: misc/react-strings.php:84 misc/react-strings.php:87
+#: misc/react-strings.php:90
+msgid "recommended"
+msgstr "recomendado"
+
+#: misc/react-strings.php:44
+msgid "Login Settings"
+msgstr "Ajustes de acceso"
+
+#: misc/react-strings.php:38
+msgid "Response"
+msgstr "Respuesta"
+
+#: misc/react-strings.php:37
+msgid "Page Visited"
+msgstr "Página visitada"
+
+#: misc/react-strings.php:34
+msgid "Visitor Type"
+msgstr "Tipo de visitante"
+
+#: misc/react-strings.php:28 misc/react-strings.php:36
+msgid "Hostname:"
+msgstr "Hostname:"
+
+#: misc/react-strings.php:27 misc/react-strings.php:35
+msgid "IP Address"
+msgstr "Dirección IP"
+
+#: misc/react-strings.php:29
+msgid "Activity"
+msgstr "Actividad"
+
+#: misc/react-strings.php:26
+msgid "User"
+msgstr "Usuario"
+
+#: misc/react-strings.php:25 misc/react-strings.php:33
+msgid "Timestamp"
+msgstr "Marca temporal"
+
+#: core/Activity_Log/Activity_Log_Attachments.php:76
+#: core/Activity_Log/Activity_Log_Attachments.php:82
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: misc/react-strings.php:24
+msgid "unblock"
+msgstr "desbloquear"
+
+#: misc/react-strings.php:23 misc/react-strings.php:30
+#: misc/react-strings.php:39
+msgid "Actions"
+msgstr "Acciones"
+
+#: misc/react-strings.php:22
+msgid "User/Ip"
+msgstr "Usuario/IP"
+
+#: misc/react-strings.php:21
+msgid "Blocked On"
+msgstr "Bloqueado el"
+
+#: misc/react-strings.php:20
+msgid "reset"
+msgstr "restablecer"
+
+#: misc/react-strings.php:19
+msgid "close"
+msgstr "cerrar"
+
+#: misc/react-strings.php:18
+msgid "Filter Activity"
+msgstr "Filtrar actividad"
+
+#: misc/react-strings.php:17
+msgid "Blocked"
+msgstr "Bloqueado"
+
+#: misc/react-strings.php:16
+msgid "Registered Users Activity"
+msgstr "Actividad de usuarios registrados"
+
+#: misc/react-strings.php:15
+msgid "Unknown Visitors Activity"
+msgstr "Actividad de visitantes desconocidos"
+
+#: misc/react-strings.php:14
+msgid "Confirm"
+msgstr "Confirmar"
+
+#: misc/react-strings.php:13
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: misc/react-strings.php:42
+msgid "Error"
+msgstr "Error"
+
+#: misc/react-strings.php:43
+msgid "Success"
+msgstr "Correcto"
+
+#: misc/react-strings.php:6
+msgid "You can't enable Away Mode for every day of the week."
+msgstr "Puedes activar el modo de reposo para cualquier día de la semana."
+
+#: misc/react-strings.php:5 misc/react-strings.php:8
+msgid "Invalid format."
+msgstr "Formato no válido."
+
+#: templates/2fa-form.php:63 templates/2fa-initial-setup-form.php:33
+#: templates/2fa-login-backup-code.php:30 templates/2fa-login.php:39
+msgid "Authenticate"
+msgstr "Identificar"
+
+#: templates/2fa-form.php:48 templates/2fa-initial-setup-form.php:16
+#: templates/2fa-login.php:22
+msgid "Authentication Code:"
+msgstr "Código de identificación:"
+
+#: templates/2fa-form.php:28 templates/2fa-login.php:20
+msgid "In order to log in, please enter the verification code from you Authenticator app:"
+msgstr "Para acceder, por favor, introduce el código de verificación de tu aplicación Authenticator:"
+
+#. Author URI of the plugin
+msgid "https://www.siteground.com"
+msgstr "https://www.siteground.es"
+
+#. Author of the plugin
+msgid "SiteGround"
+msgstr "SiteGround"
+
+#. Plugin URI of the plugin
+msgid "https://siteground.com"
+msgstr "https://siteground.com"
+
+#: core/Admin/Admin.php:142
+msgid "SG Security"
+msgstr "SG Security"

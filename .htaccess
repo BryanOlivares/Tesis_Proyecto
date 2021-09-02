@@ -1,0 +1,63 @@
+# SGS HSTS Header Service
+    Header set Strict-Transport-Security "max-age=10886400; preload"
+# SGS HSTS Header Service END
+# SGS XMLRPC Disable Service
+<Files xmlrpc.php>
+	order deny,allow
+	deny from all
+</Files>
+# SGS XMLRPC Disable Service END
+# SGS XSS Header Service
+<IfModule mod_headers.c>
+    # SGS XSS
+     Header always set X-Content-Type-Options "nosniff"
+     Header set X-XSS-Protection "1; mode=block"
+    # SGS XSS END
+</IfModule>
+# SGS XSS Header Service END
+
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_flag display_errors Off
+   php_value max_execution_time 3000
+   php_value max_input_time 600
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 80M
+   php_value session.gc_maxlifetime 14400
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 3000
+   php_value max_input_time 600
+   php_value max_input_vars 1000
+   php_value memory_limit 512M
+   php_value post_max_size 80M
+   php_value session.gc_maxlifetime 14400
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php74"
+   php_value upload_max_filesize 20M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

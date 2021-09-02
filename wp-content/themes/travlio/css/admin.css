@@ -1,0 +1,15 @@
+li#wp-admin-bar-_options {
+     display: none !important;
+}
+
+li#wp-admin-bar-new-content {
+     display: none !important;
+}
+
+span.ab-label.awaiting-mod.pending-count.count-0 {
+    display: none !important;
+}
+
+li#wp-admin-bar-comments {
+    display: none;
+}

@@ -1,0 +1,70 @@
+
+---Downloaded files---
+The import files for: Home were successfully downloaded!
+Initial max execution time = 3000
+Files info:
+Site URL = https://boutiquepurpura.com
+Data file = /home/boutique/public_html/wp-content/themes/travlio/inc/vendors/one-click-demo-import/data/dummy-data.xml
+Widget file = /home/boutique/public_html/wp-content/themes/travlio/inc/vendors/one-click-demo-import/data/widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[WARNING] Failed to import ba_amenities Air Condition
+[WARNING] Failed to import ba_destinations Amsterdam
+[WARNING] Failed to import ba_amenities Balcony
+[WARNING] Failed to import ba_amenities Bedding
+[WARNING] Failed to import ba_language English
+[WARNING] Failed to import ba_language French
+[WARNING] Failed to import ba_language German
+[WARNING] Failed to import ba_amenities Heating
+[WARNING] Failed to import ba_amenities Internet
+[WARNING] Failed to import ba_language Japanese
+[WARNING] Failed to import ba_destinations London
+[WARNING] Failed to import ba_amenities Microwave
+[WARNING] Failed to import ba_destinations New York
+[WARNING] Failed to import ba_amenities Outdoor Seating
+[WARNING] Failed to import ba_destinations Paris
+[WARNING] Failed to import ba_amenities Smoking Allow
+[WARNING] Failed to import ba_language Spanish
+[WARNING] Failed to import ba_amenities Terrace
+[WARNING] Failed to import ba_amenities Valet Parking
+[WARNING] Failed to import ba_amenities Wheelchair Accesible
+[ERROR] Failed to import "payment" (Medios)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "payment" (Medios)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "payment" (Medios)
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Sidebar Default : 
+
+BA Search Form - No Title - Imported
+BA Price Filter - Price - Imported
+BA Search filter - Amenities - Imported
+BA Search filter - Destinations - Imported
+BA Search filter - Language - Imported
+
+Blog Sidebar : 
+
+Buscar - Search - Imported
+Categorías - Categories - Imported
+Apus Recent Posts Widget - Latest Post - Imported
+Nube de etiquetas - Tags Cloud - Imported
+
+
+
+---ocdi/after_import---
+
